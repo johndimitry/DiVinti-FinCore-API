@@ -1,0 +1,15 @@
+# DiVinti FinCore
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+.idea/
+*.iml
+.vscode/
+.settings/
+*.log
+.env
+# NUNCA commita senha real
+src/main/resources/application-prod.properties
+src/main/resources/application-secret.properties
